@@ -7,7 +7,14 @@ backup_server() {
     
     echo "⚠️ Server stopped or Codespace shutting down! Initiating emergency cloud backup loop..."
     
-    # Reset the origin to a standard HTTPS URL so Git uses your 'gh auth login' credentials
+    # Disable VS Code's broken credential helpers for this script
+    unset GIT_ASKPASS
+    unset SSH_ASKPASS
+    
+    # Ensure Git uses 'gh' (GitHub CLI) for credentials
+    git config --local credential.helper '!gh auth git-credential'
+    
+    # Reset the origin to standard HTTPS
     git remote set-url origin https://github.com/eperl1/aeronautics.git
     
     # Commit and push all changes
