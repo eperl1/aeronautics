@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" data-theme="light">
+<head>
+	<meta name="generator" content="Hugo 0.118.2">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The NeoForged project</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Files, news and information from the NeoForged Project">
+		<meta property="og:title" content="The NeoForged Project: Installer and Modder Information" />
+<meta property="og:description" content="NeoForged installer files, as well as news and other information from the NeoForged project
+" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://neoforged.net/" /><meta property="og:image" content="https://neoforged.net/img/authors/neoforged.png"/>
+
+		<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://neoforged.net/img/authors/neoforged.png"/>
+
+<meta name="twitter:title" content="The NeoForged Project: Installer and Modder Information"/>
+<meta name="twitter:description" content="NeoForged installer files, as well as news and other information from the NeoForged project
+"/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="The NeoForged project">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" /> 
+	<link rel="icon" href="https://neoforged.net/img/authors/neoforged.png" sizes="128x128" type="image/png"/>
+
+	<script src="/js/modetoggle.js"></script>
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="The NeoForged project" rel="home">
+			<div class="logo__item logo__imagebox"><div class="logo__img_parent">
+							<div class="logo__img_padding" style="padding-top: 20.73170731707317%">
+								<img loading="lazy" class="logo__img logo__img_inner" src="/img/content/branding/banner.png" alt="The NeoForged Project logo">
+							</div>
+						</div><div class="logo__tagline">Files, News and information from the NeoForged Project</div>
+				</div></a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main list" role="main">
+	<div class="content main__content clearfix">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  
+  <script src="/js/neoforge.js"></script>
+  
+
+
+    <div id="installerSection" class="installer_section">
+        <div>
+            <h1>NeoForge installer files</h1>
+            <p>You can find a direct link to our installer files here:</p>
+        </div>
+
+        <div id="filelist" class="fileinfo">
+            <div class="fileinfo__body">
+                <div class="selection_row">
+                    <div class="selection_block">
+                        <label for="minecraftversions">Minecraft Version:&nbsp;</label>
+                        <select name="Minecraft Versions" id="minecraftversions" class="select2-mode" disabled>
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                    <div class="selection_block">
+                        <label for="neoforgeversions">NeoForge Version:&nbsp;</label>
+                        <select name="Neoforge Versions" id="neoforgeversions" class="select2-mode" disabled>
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="download_row" style="flex-grow: 2;">
+                    <a id="installerlink"><span>Loading...</span></a>
+                    <a id="changeloglink"><span>Loading...</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    document.addEventListener("readystatechange", evt=>{
+        if (evt.target.readyState === "complete") {
+            loadVersions();
+        }
+    });
+</script>
+
+<a href="#using-neoforge-for-mod-development" class="anchor-wrapper">
+    <h1 id="using-neoforge-for-mod-development">Using NeoForge for mod development
+        <span class="anchor-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></span>
+    </h1>
+</a>
+<a href="#if-you-dont-have-a-current-mod-project" class="anchor-wrapper">
+    <h2 id="if-you-dont-have-a-current-mod-project">If you don&rsquo;t have a current mod project
+        <span class="anchor-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></span>
+    </h2>
+</a>
+<ol>
+<li>Go to the <a href="/mod-generator">Mod Generator page</a> and enter the settings for your new mod.</li>
+<li>Download the generated mod, unzip it, and get started! Our <a href="https://docs.neoforged.net">Documentation</a> and the <a href="https://forge.gemwire.uk">Modding Wiki</a> are great places to learn more.</li>
+</ol>
+<a href="#if-you-have-an-existing-mod-project" class="anchor-wrapper">
+    <h2 id="if-you-have-an-existing-mod-project">If you have an existing mod project
+        <span class="anchor-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg></span>
+    </h2>
+</a>
+<p>Refer to the <a href="https://github.com/neoforgemdks">MDK list</a> for examples of how to update your build script to use NeoForge.</p>
+
+	</div>
+        <div class="news">
+        <h1 class="newsbanner">News from The NeoForged Project</h1>
+	<article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/mitigating-vulnerabilities-network/" rel="bookmark">
+			Mitigating Network Vulnerabilities
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="ChampionAsh5357 avatar" src="/img/authors/championash5357.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">ChampionAsh5357</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2026-05-11T00:00:00Z">May 11, 2026</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		This blog post explains NeoForge&rsquo;s patch for a network object allocation exploit,
+and how modders can mitigate these issues in their own serverbound packets.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/26.1release/" rel="bookmark">
+			NeoForge for Minecraft 26.1
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="Technici4n avatar" src="/img/authors/technici4n.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">Technici4n</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2026-03-24T22:15:00&#43;01:00">March 24, 2026</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		All you need to know about NeoForge for Minecraft 26.1.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/2025-retrospection/" rel="bookmark">
+			2025: Big Changes are Coming
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="matyrobbrt avatar" src="/img/authors/matyrobbrt.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">matyrobbrt</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2026-01-01T00:00:00Z">January 01, 2026</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>, <a class="meta__link" href="/categories/new-year/" rel="category">New Year</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		A retrospection on the past year (take three)
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/26.1snapshots/" rel="bookmark">
+			NeoForge for 26.1 Snapshots
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="Technici4n avatar" src="/img/authors/technici4n.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">Technici4n</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-12-26T17:00:00&#43;01:00">December 26, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Early NeoForge builds are now available for Minecraft 26.1-snapshot-1.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/21.11release/" rel="bookmark">
+			NeoForge 21.11 for Minecraft 1.21.11
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="NeoForged Team avatar" src="/img/authors/neoforged.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">NeoForged Team</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-12-09T20:30:00&#43;01:00">December 09, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>, <a class="meta__link" href="/categories/releases/" rel="category">Releases</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		All you need to know about NeoForge 21.11, now released for Minecraft 1.21.11.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/21.9-transfer-rework/" rel="bookmark">
+			The Transfer Rework
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="Technici4n avatar" src="/img/authors/technici4n.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">Technici4n</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-09-30T20:11:00&#43;02:00">September 30, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		This post covers the changes made to the transfer APIs in NeoForge 21.9,
+first giving an overview of the new system,
+and then explaining how to migrate from the old system.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/21.9release/" rel="bookmark">
+			NeoForge 21.9 for Minecraft 1.21.9
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="NeoForged Team avatar" src="/img/authors/neoforged.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">NeoForged Team</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-09-30T20:10:00&#43;02:00">September 30, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>, <a class="meta__link" href="/categories/releases/" rel="category">Releases</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		All you need to know about NeoForge 21.9, now released for Minecraft 1.21.9.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/2025serversidesummerresults/" rel="bookmark">
+			2025 Serverside Summer Results
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="NeoForged Team avatar" src="/img/authors/neoforged.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">NeoForged Team</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-08-08T12:00:00&#43;01:00">August 08, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Serverside Summer mod contest results!
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/21.6release/" rel="bookmark">
+			NeoForge 21.6 for Minecraft 1.21.6
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="NeoForged Team avatar" src="/img/authors/neoforged.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">NeoForged Team</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-06-17T21:25:00&#43;02:00">June 17, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>, <a class="meta__link" href="/categories/releases/" rel="category">Releases</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		All you need to know about NeoForge 21.6, now released for Minecraft 1.21.6.
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/news/2025serversidesummer/" rel="bookmark">
+			2025 Serverside Summer
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<figure class="meta__icon">
+		<img alt="NeoForged Team avatar" src="/img/authors/neoforged.png" class="avatar" height="32" width="32">
+	</figure>
+	<span class="meta__text">NeoForged Team</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+<time class="meta__text" datetime="2025-05-31T12:00:00&#43;01:00">May 31, 2025</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">News</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Serverside Summer mod contest now live!
+	</div>
+</article>
+        </div>
+</main>
+
+<div class="pagination">
+	<span class="pagination__item pagination__item--current">1/3</span>
+	<a class="pagination__item pagination__item--next btn" href="/page/2/">»</a>
+</div>
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://neoforged.net/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/news/mitigating-vulnerabilities-network/">Mitigating Network Vulnerabilities</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/26.1release/">NeoForge for Minecraft 26.1</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/2025-retrospection/">2025: Big Changes are Coming</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/26.1snapshots/">NeoForge for 26.1 Snapshots</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/21.11release/">NeoForge 21.11 for Minecraft 1.21.11</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/new-year/">New Year</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/news/">News</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/personal-blog/">Personal Blog</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/releases/">Releases</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Links</h4>
+	<div class="widget-social__content widget__content">
+
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="NeoForged Project Listing"  rel="noopener noreferrer" href="https://projects.neoforged.net/" target="_blank">
+					<svg class="widget-social__link-icon icon icon-projects" width="24px" height="24px" viewBox="0 0 20 20" style="vertical-align: middle;transform: translateX(-2px);" xmlns="http://www.w3.org/2000/svg"><g><path d="M2,9H9V2H2ZM4,4H7V7H4Zm6,7,5,8,5-8Zm8-9H11V9h7ZM16,7H13V4h3ZM2,18H9V11H2Zm2-5H7v3H4Z"/></g></svg>
+
+				<span>NeoForged Project Listing</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub"  rel="noopener noreferrer" href="https://github.com/neoforged/" target="_blank">
+					<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Discord"  rel="noopener noreferrer" href="https://discord.neoforged.net/" target="_blank">
+					<svg class="widget-social__link-icon icon icon-discord" width="24" height="24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+  <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+</svg>
+
+				<span>Discord</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter"  rel="noopener noreferrer" href="https://twitter.com/NeoForged_MC" target="_blank">
+					<svg class="widget-social__link-icon icon icon-twitter" width="24" height="24" viewBox="0 0 384 312"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Open Collective"  rel="noopener noreferrer" href="https://opencollective.com/neoforged" target="_blank">
+					<svg  class="widget-social__link-icon icon icon-opencollective" width="24" height="24"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-opencollective" viewBox="0 0 16 16">
+  <path fill-opacity=".4" d="M12.995 8.195c0 .937-.312 1.912-.78 2.693l1.99 1.99c.976-1.327 1.6-2.966 1.6-4.683 0-1.795-.624-3.434-1.561-4.76l-2.068 2.028c.468.781.78 1.679.78 2.732h.04Z"/>
+  <path d="M8 13.151a4.995 4.995 0 1 1 0-9.99c1.015 0 1.951.273 2.732.82l1.95-2.03a7.805 7.805 0 1 0 .04 12.449l-1.951-2.03a5.072 5.072 0 0 1-2.732.781H8Z"/>
+</svg>
+
+				<span>Open Collective</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Current backend service status"  rel="noopener noreferrer" href="https://status.neoforged.net" target="_blank">
+					<svg class="widget-social__link-icon icon icon-time" width="24" height="22" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+
+				<span>Current backend service status</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Documentation"  rel="noopener noreferrer" href="https://docs.neoforged.net" target="_blank">
+					<svg class="widget-social__link-icon icon icon-files" width="24" height="24" viewBox="0 0 384 384"><path d="m368 64h-224-16v16 288 16h16 224 16v-16-288-16zm-16 288h-192v-256h192zm-320-320h192v16h32v-32-16h-16-224-16v16 288 16h16 96v-32h-80zm144 272h160v-32h-160zm0-64h160v-32h-160zm0-64h160v-32h-160zm-128 64h64v-32h-64zm0-64h64v-32h-64zm0-64h64v-32h-64z"/></svg>
+
+				<span>Documentation</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Order a server from CreeperHost"  rel="noopener noreferrer" href="https://www.creeperhost.net/partner/neoforge-aww" target="_blank">
+					<svg class="widget-social__link-icon " style="width: 25px; height: 24px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<g>
+	<path fill="#0F6A3A" d="M163.4,244.2l26.2,13.2V214l-26.2,13.1V244.2z"/>
+	<path fill="#116C3B" d="M189.6,187.7V214l26.2-13.1L189.6,187.7z"/>
+	<path fill="#18A650" d="M189.6,214l26.2-13.1v43.4l-26.2,13.1V214z"/>
+	<path fill="#8FC045" d="M84.9,213.8l52.3,26.4v43.4l-52.3-26.4V213.8z"/>
+	<path fill="#3CAF73" d="M137.3,240.3l26.2-13.1v43.4l-26.2,13.1V240.3z"/>
+	<path fill="#18A650" d="M111.1,200.7l52.3,26.4l-26.2,13.1l-52.3-26.4L111.1,200.7z"/>
+	<path fill="#0F6A3A" d="M111.1,116.3l39.3,19.7l13.1-6.6v97.7l-52.3-26.4V116.3z"/>
+	<path fill="#8FC045" d="M163.4,129.5l26.2-13.1V214l-26.2,13.1V129.5z"/>
+	<path fill="#8FC045" d="M98,44.4v65.4l52.3,26.2V70.9L98,44.4z"/>
+	<path fill="#3CAF73" d="M150.3,70.9l52.3-26.4v65.4L150.3,136V70.9z"/>
+	<path fill="#0C9648" d="M150.3,18L98,44.4l52.3,26.4l52.3-26.4L150.3,18z"/>
+</g>
+</svg>
+
+				<span>Order a server from CreeperHost</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Team member application form"  rel="noopener noreferrer" href="https://links.neoforged.net/apply" target="_blank">
+					<svg class="widget-social__link-icon icon icon-team" height="24px" width="24px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g><path class="st0" d="M435.95,287.525c32.51,0,58.87-26.343,58.87-58.853c0-32.51-26.361-58.871-58.87-58.871   c-32.502,0-58.863,26.361-58.863,58.871C377.088,261.182,403.448,287.525,435.95,287.525z"/><path class="st0" d="M511.327,344.251c-2.623-15.762-15.652-37.822-25.514-47.677c-1.299-1.306-7.105-1.608-8.673-0.636   c-11.99,7.374-26.074,11.714-41.19,11.714c-15.099,0-29.184-4.34-41.175-11.714c-1.575-0.972-7.373-0.67-8.672,0.636   c-2.757,2.757-5.765,6.427-8.698,10.683c7.935,14.94,14.228,30.81,16.499,44.476c2.27,13.7,1.533,26.67-2.138,38.494   c13.038,4.717,28.673,6.787,44.183,6.787C476.404,397.014,517.804,382.987,511.327,344.251z"/><path class="st0" d="M335.269,277.303c-2.07-2.061-11.471-2.588-14.027-1.006c-19.448,11.966-42.271,18.971-66.755,18.971   c-24.466,0-47.3-7.005-66.738-18.971c-2.555-1.583-11.956-1.055-14.026,1.006c-16.021,16.004-37.136,51.782-41.384,77.288   c-10.474,62.826,56.634,85.508,122.148,85.508c65.532,0,132.639-22.682,122.165-85.508   C372.404,329.085,351.289,293.307,335.269,277.303z"/><path class="st0" d="M254.487,262.691c52.687,0,95.403-42.716,95.403-95.402c0-52.67-42.716-95.386-95.403-95.386   c-52.678,0-95.378,42.716-95.378,95.386C159.109,219.975,201.808,262.691,254.487,262.691z"/><path class="st0" d="M76.049,287.525c32.502,0,58.862-26.343,58.862-58.853c0-32.51-26.36-58.871-58.862-58.871   c-32.511,0-58.871,26.361-58.871,58.871C17.178,261.182,43.538,287.525,76.049,287.525z"/><path class="st0" d="M115.094,351.733c2.414-14.353,9.225-31.253,17.764-46.88c-2.38-3.251-4.759-6.083-6.955-8.279   c-1.299-1.306-7.097-1.608-8.672-0.636c-11.991,7.374-26.076,11.714-41.182,11.714c-15.108,0-29.202-4.34-41.183-11.714   c-1.568-0.972-7.382-0.67-8.681,0.636c-9.887,9.854-22.882,31.915-25.514,47.677c-6.468,38.736,34.924,52.762,75.378,52.762   c14.437,0,29.016-1.777,41.459-5.84C113.587,379.108,112.757,365.835,115.094,351.733z"/></g></svg>
+
+				<span>Team member application form</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Discord ban appeal form"  rel="noopener noreferrer" href="https://links.neoforged.net/appeal" target="_blank">
+					<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>Discord ban appeal form</span>
+			</a>
+		</div>
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		<div class="footer__inner">
+			
+			<div class="footer__copyright">
+				&copy; 2026 The NeoForged project.
+				<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+			Customizations by <a href="https://github.com/lukebemish">@lukebemish</a> and <a href="https://github.com/gigaherz">@gigaherz</a>
+			<br>
+			</div>
+			<div class="footer__disclaimer">
+				Not an official Minecraft website. Not approved by or associated with Mojang or Microsoft.
+			</div>
+		</div>
+		<div class="footer_modetoggle">
+			<div class="footer_modetoggle-button">
+				<i class="bi bi-moon footer_modetoggle-dark"></i><i class="bi bi-brightness-high footer_modetoggle-light"></i>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
