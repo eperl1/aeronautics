@@ -34,6 +34,7 @@ trap backup_server EXIT SIGINT SIGTERM
 echo "🚀 Firing up the NeoForge Server..."
 
 # Run Java in the background (&) so Bash can instantly intercept shutdown signals
+# Set to 8G to leave room for native Rapier physics memory
 java -Xmx8G -Xms4G @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.230/unix_args.txt "$@" &
 JAVA_PID=$!
 
