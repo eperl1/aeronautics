@@ -7,8 +7,8 @@ backup_server() {
     
     echo "⚠️ Server stopped or Codespace shutting down! Initiating emergency cloud backup loop..."
     
-    # Ensure the origin explicitly points to your requested repository
-    git remote set-url origin https://github.com/eperl1/aeronautics.git
+    # Restore the default Codespaces authentication in case the previous script broke it
+    git remote set-url origin "https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/eperl1/aeronautics.git"
     
     # Commit and push all changes
     git add .
