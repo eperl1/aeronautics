@@ -1,68 +1,58 @@
-[26Jun2026 23:38:42.860] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.230, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[26Jun2026 23:38:42.867] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
-[26Jun2026 23:38:42.873] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
-[26Jun2026 23:38:43.326] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Jun2026 23:38:43.413] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/codespaces-blank/neoforge-server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[26Jun2026 23:38:44.166] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.230:server]
-[26Jun2026 23:38:44.203] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.230-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.230/neoforge-21.1.230-universal.jar]], reader: mod manifest]
-[26Jun2026 23:38:44.215] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aeroworks-1.2.11.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.219] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisels-and-bits-neoforge-21.1.32.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.228] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.235] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.266] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.275] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.286] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_connected-1.2.2-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.299] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createpropulsion-1.1.4.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.330] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DoctorWhoMod-1.21.1-neoforge-1.0.16.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.359] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.381] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.395] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.407] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.418] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.83.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.422] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justanotherlibrarymod-1.0.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.425] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justzoom_neoforge_2.1.0_MC_1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.431] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.447] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "minedmx-1.5.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.3+1.21-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.458] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simpleghostblocks-1.21.1-1.0.5.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.461] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.465] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:44.492] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:38:45.781] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 30 dependencies adding them to mods collection
-[26Jun2026 23:38:45.782] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.782] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "scena-core-21.1.20.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.783] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.783] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+acb05a3919.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.783] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.1.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.783] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.20.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.230.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.5.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.784] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jcpp-1.4.14.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-transformer-3.0.0-pre3.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-api-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-create-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.785] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: create_connected-1.2.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-core-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.786] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.1.4.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.787] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.787] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "saecularia-caudices-core-21.1.5.jar" [parent: neoforge-21.1.5.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.788] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "Reflect-1.6.1+curseforge.jar" [parent: ImmediatelyFast-NeoForge-1.6.10+1.21.1.jar, locator: jarinjar]
-[26Jun2026 23:38:45.788] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: iris-neoforge-1.8.14-beta.1+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.788] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
-[26Jun2026 23:38:45.791] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.791] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.791] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:38:45.801] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[26Jun2026 23:41:36.758] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.230, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[26Jun2026 23:41:36.763] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
+[26Jun2026 23:41:36.765] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
+[26Jun2026 23:41:37.146] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Jun2026 23:41:37.268] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/codespaces-blank/neoforge-server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[26Jun2026 23:41:38.091] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.230:server]
+[26Jun2026 23:41:38.127] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.230-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.230/neoforge-21.1.230-universal.jar]], reader: mod manifest]
+[26Jun2026 23:41:38.141] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aeroworks-1.2.11.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisels-and-bits-neoforge-21.1.32.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.156] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.164] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.191] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.203] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_connected-1.2.2-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.215] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createpropulsion-1.1.4.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.222] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.234] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DoctorWhoMod-1.21.1-neoforge-1.0.16.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.241] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.249] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.257] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-neoforge-1.21.1-6.0.0-beta.83.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.265] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justanotherlibrarymod-1.0.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.273] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.318] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "minedmx-1.5.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.329] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.3+1.21-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.347] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.357] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simpleghostblocks-1.21.1-1.0.5.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.367] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.376] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:38.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[26Jun2026 23:41:39.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 23 dependencies adding them to mods collection
+[26Jun2026 23:41:39.673] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "scena-core-21.1.20.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.1.4.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.674] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.675] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "saecularia-caudices-core-21.1.5.jar" [parent: neoforge-21.1.5.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.675] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.1.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.675] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[26Jun2026 23:41:39.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.20.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.230.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.676] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "pngj-2.1.0.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar]
+[26Jun2026 23:41:39.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.5.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "common-networking-neoforge-1.0.21-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.677] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
+[26Jun2026 23:41:39.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.678] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-api-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.682] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-create-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.683] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: create_connected-1.2.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.683] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.683] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "journeymap-api-neoforge-2.0.0-1.21.1.jar" [parent: journeymap-neoforge-1.21.1-6.0.0-beta.83.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.685] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.686] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-core-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[26Jun2026 23:41:39.690] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -83,16 +73,9 @@
 		DoctorWhoMod 1.0.16 (dwm)
 		Flywheel 1.0.6 (flywheel)
 		Forge Config API Port 21.1.6 (forgeconfigapiport)
-		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
-		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
-		Forgified Fabric Renderer API (v1) 3.4.0+acb05a3919 (fabric_renderer_api_v1)
-		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
 		Fusion 1.2.12 (fusion)
-		ImmediatelyFast 1.6.10+1.21.1 (immediatelyfast)
-		Iris 1.8.14-beta.1+mc1.21.1 (iris)
 		Journeymap 1.21.1-6.0.0-beta.83 (journeymap)
 		JourneyMap API 2.0.0-1.21.1 (journeymap_api)
-		Just Zoom 2.1.0 (justzoom)
 		JustAnotherLibraryMod 1.0.0 (justanotherlibrarymod)
 		Konkrete 1.9.9 (konkrete)
 		Minecraft 1.21.1 (minecraft)
@@ -109,110 +92,127 @@
 		SuperMartijn642's Core Lib 1.1.21 (supermartijn642corelib)
 		Veil 4.1.4 (veil)
 		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
-[26Jun2026 23:38:47.605] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[26Jun2026 23:38:47.952] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[26Jun2026 23:38:48.051] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for sc.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.079] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.098] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.106] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.108] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.fantastic.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.109] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.110] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for iris-batched-entity-rendering.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.110] [main/WARN] [mixin/]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.196] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.214] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.215] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.217] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.475] [main/WARN] [mixin/]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.476] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for scena.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.479] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.480] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.491] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.525] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.555] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[26Jun2026 23:38:48.558] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[26Jun2026 23:38:48.572] [main/WARN] [mixin/]: Reference map 'createpropulsion.refmap.json' for createpropulsion.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.574] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.657] [main/WARN] [mixin/]: Reference map 'justzoom.refmap.json' for justzoom.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:48.658] [main/WARN] [mixin/]: Reference map 'justzoom.refmap.json' for justzoom.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:38:50.369] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/plugins/vanilla/ingredients/ItemStackListFactory (java.lang.ClassNotFoundException: mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory)
-[26Jun2026 23:38:50.489] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[26Jun2026 23:38:50.491] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[26Jun2026 23:38:50.497] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[26Jun2026 23:38:50.497] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[26Jun2026 23:38:50.539] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[26Jun2026 23:38:51.174] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:51.180] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:51.349] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:51.351] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:51.428] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:51.429] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:51.809] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/portal/Portal (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.portal.Portal)
-[26Jun2026 23:38:51.810] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.portal.Portal was not found dwm-common.mixins.json:MixinPortal from mod dwm
-[26Jun2026 23:38:51.812] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/teleportation/ServerTeleportationManager (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.teleportation.ServerTeleportationManager)
-[26Jun2026 23:38:51.812] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.teleportation.ServerTeleportationManager was not found dwm-common.mixins.json:MixinServerTeleportationManager from mod dwm
-[26Jun2026 23:38:52.183] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[26Jun2026 23:38:52.303] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.311] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:52.326] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.333] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:52.446] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.452] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:52.463] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.475] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:52.530] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.535] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:52.548] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:38:52.552] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:38:53.299] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[26Jun2026 23:39:00.620] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:39:00.621] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:39:00.660] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:39:00.660] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:39:00.698] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:39:00.699] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:39:14.488] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.230, for MC 1.21.1
-[26Jun2026 23:39:14.684] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
-[26Jun2026 23:39:16.172] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.9 in server-side mode on NEOFORGE!
-[26Jun2026 23:39:16.174] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
-[26Jun2026 23:39:16.175] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[26Jun2026 23:39:16.177] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
-[26Jun2026 23:39:16.177] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
-[26Jun2026 23:39:16.177] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
-[26Jun2026 23:39:16.178] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
-[26Jun2026 23:39:16.179] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
-[26Jun2026 23:39:16.180] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
-[26Jun2026 23:39:16.180] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
-[26Jun2026 23:39:16.180] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
-[26Jun2026 23:39:16.181] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
-[26Jun2026 23:39:16.182] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
-[26Jun2026 23:39:16.182] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
-[26Jun2026 23:39:16.183] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[26Jun2026 23:39:16.184] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
-[26Jun2026 23:39:16.184] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
-[26Jun2026 23:39:16.905] [modloading-worker-0/INFO] [scena-forge/]: Initialized scena-forge
-[26Jun2026 23:39:16.935] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge/]: Initialized Chisels&Bits - Forge
-[26Jun2026 23:39:17.042] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
-[26Jun2026 23:39:17.079] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
-[26Jun2026 23:39:17.098] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
-[26Jun2026 23:39:17.648] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
-[26Jun2026 23:39:19.658] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
-[26Jun2026 23:39:19.663] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
-[26Jun2026 23:39:19.667] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
-[26Jun2026 23:39:19.759] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
-[26Jun2026 23:39:19.774] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
-[26Jun2026 23:39:19.793] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
-[26Jun2026 23:39:19.806] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
-[26Jun2026 23:39:19.808] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
-[26Jun2026 23:39:19.826] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
-[26Jun2026 23:39:19.831] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
-[26Jun2026 23:39:19.835] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
-[26Jun2026 23:39:19.836] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
-[26Jun2026 23:39:19.884] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChangeTypes/]: Loaded change type configuration.
-[26Jun2026 23:39:20.024] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMultiStateSnapshotTypes/]: Loaded change type configuration.
-[26Jun2026 23:39:20.029] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModDataComponentTypes/]: Loaded data component types.
-[26Jun2026 23:39:20.043] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler/]: Registering event handlers
-[26Jun2026 23:39:20.732] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
-[26Jun2026 23:39:21.018] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[26Jun2026 23:39:28.715] [modloading-worker-0/INFO] [com.romanbrady.minedmx.MineDMX/]: MineDMX initialization started!
-[26Jun2026 23:39:29.400] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[26Jun2026 23:41:41.588] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[26Jun2026 23:41:42.069] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[26Jun2026 23:41:42.205] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.215] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.222] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for sc.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.249] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.287] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.322] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.388] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[26Jun2026 23:41:42.393] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
+[26Jun2026 23:41:42.400] [main/WARN] [mixin/]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.405] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for scena.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.489] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.490] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.500] [main/WARN] [mixin/]: Reference map 'createpropulsion.refmap.json' for createpropulsion.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.544] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.544] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.552] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:42.908] [main/WARN] [mixin/]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2026 23:41:44.690] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:44.709] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:44.964] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:44.970] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:45.043] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:45.046] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:45.604] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/plugins/vanilla/ingredients/ItemStackListFactory (java.lang.ClassNotFoundException: mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory)
+[26Jun2026 23:41:45.703] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/portal/Portal (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.portal.Portal)
+[26Jun2026 23:41:45.703] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.portal.Portal was not found dwm-common.mixins.json:MixinPortal from mod dwm
+[26Jun2026 23:41:45.706] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/teleportation/ServerTeleportationManager (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.teleportation.ServerTeleportationManager)
+[26Jun2026 23:41:45.707] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.teleportation.ServerTeleportationManager was not found dwm-common.mixins.json:MixinServerTeleportationManager from mod dwm
+[26Jun2026 23:41:45.802] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
+[26Jun2026 23:41:45.802] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[26Jun2026 23:41:45.808] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
+[26Jun2026 23:41:45.808] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
+[26Jun2026 23:41:45.837] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[26Jun2026 23:41:46.048] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
+[26Jun2026 23:41:46.128] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.132] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:46.138] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.142] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:46.191] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.193] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:46.202] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.203] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:46.261] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.264] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:46.270] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:46.273] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:47.020] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[26Jun2026 23:41:53.584] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:53.585] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:53.622] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:53.622] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:41:53.706] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
+[26Jun2026 23:41:53.707] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[26Jun2026 23:42:07.745] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.10 initializing! Commit hash: ac0c444d9828da3453ae8cc65338e8de063286fb
+[26Jun2026 23:42:09.532] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.230, for MC 1.21.1
+[26Jun2026 23:42:10.008] [modloading-worker-0/INFO] [scena-forge/]: Initialized scena-forge
+[26Jun2026 23:42:10.033] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge/]: Initialized Chisels&Bits - Forge
+[26Jun2026 23:42:10.093] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[26Jun2026 23:42:10.108] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
+[26Jun2026 23:42:10.133] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[26Jun2026 23:42:11.761] [modloading-worker-0/INFO] [dev.ryanhcode.sable.Sable/]: Sable loaded!
+[26Jun2026 23:42:11.995] [modloading-worker-0/INFO] [Veil/]: Veil is initializing.
+[26Jun2026 23:42:12.894] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[26Jun2026 23:42:12.900] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
+[26Jun2026 23:42:12.907] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[26Jun2026 23:42:13.006] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
+[26Jun2026 23:42:13.046] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[26Jun2026 23:42:13.073] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
+[26Jun2026 23:42:13.087] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[26Jun2026 23:42:13.092] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[26Jun2026 23:42:13.148] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[26Jun2026 23:42:13.159] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[26Jun2026 23:42:13.167] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
+[26Jun2026 23:42:13.170] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
+[26Jun2026 23:42:13.216] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChangeTypes/]: Loaded change type configuration.
+[26Jun2026 23:42:13.385] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMultiStateSnapshotTypes/]: Loaded change type configuration.
+[26Jun2026 23:42:13.404] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModDataComponentTypes/]: Loaded data component types.
+[26Jun2026 23:42:13.410] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler/]: Registering event handlers
+[26Jun2026 23:42:13.770] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.9 in server-side mode on NEOFORGE!
+[26Jun2026 23:42:13.771] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[26Jun2026 23:42:13.772] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[26Jun2026 23:42:13.777] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[26Jun2026 23:42:13.779] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
+[26Jun2026 23:42:13.779] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[26Jun2026 23:42:13.779] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
+[26Jun2026 23:42:13.780] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[26Jun2026 23:42:13.788] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
+[26Jun2026 23:42:13.792] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[26Jun2026 23:42:13.792] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[26Jun2026 23:42:13.792] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[26Jun2026 23:42:22.197] [modloading-worker-0/INFO] [com.romanbrady.minedmx.MineDMX/]: MineDMX initialization started!
+[26Jun2026 23:42:22.684] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/forgeconfigapiport.json
+[26Jun2026 23:42:23.536] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.neoforge.NeoForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1c102a27]
+[26Jun2026 23:42:23.562] [modloading-worker-0/INFO] [com.sk89q.worldedit.neoforge.NeoForgeWorldEdit/]: WorldEdit for NeoForge (version 7.3.8+6939-7d32b45) is loaded
+[26Jun2026 23:42:23.746] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [forgeconfigapiport] Found status: UP_TO_DATE Current: 21.1.6 Target: null
+[26Jun2026 23:42:23.746] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Starting version check at https://api.modrinth.com/updates/create/forge_updates.json?neoforge=only
+[26Jun2026 23:42:24.092] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create] Found status: OUTDATED Current: 6.0.10 Target: 6.0.10+mc1.21.1
+[26Jun2026 23:42:24.092] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Starting version check at https://neoforge.curseupdate.com/32274/journeymap
+[26Jun2026 23:42:24.237] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [journeymap] Found status: BETA Current: 1.21.1-6.0.0-beta.83 Target: 1.21.1-6.0.0-beta.52
+[26Jun2026 23:42:24.238] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [chiselsandbits] Starting version check at https://curseupdate.com/231095/chiselsandbits?ml=neoforge
+[26Jun2026 23:42:24.324] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [chiselsandbits] Found status: OUTDATED Current: 21.1.32 Target: 21.1.33
+[26Jun2026 23:42:24.324] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create_connected] Starting version check at https://raw.githubusercontent.com/hlysine/create_connected/main/update.json
+[26Jun2026 23:42:24.339] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [create_connected] Found status: OUTDATED Current: 1.2.2-mc1.21.1 Target: 1.3.2-mc1.21.1
+[26Jun2026 23:42:24.652] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[26Jun2026 23:42:25.053] [main/WARN] [net.neoforged.neoforge.common.CommonHooks/WP]: The following mods have version differences that were not resolved:
+fabric_api_base (version 0.4.42+d1308ded19 -> MISSING)
+fabric_block_view_api_v2 (version 1.0.10+9afaaf8c19 -> MISSING)
+fabric_renderer_api_v1 (version 3.4.0+acb05a3919 -> MISSING)
+fabric_rendering_data_attachment_v1 (version 0.3.48+73761d2e19 -> MISSING)
+immediatelyfast (version 1.6.10+1.21.1 -> MISSING)
+iris (version 1.8.14-beta.1+mc1.21.1 -> MISSING)
+justzoom (version 2.1.0 -> MISSING)
+Things may not work well.
+[26Jun2026 23:42:25.121] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/codespaces-blank/neoforge-server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23140!/assets/.mcassetsroot' uses unexpected schema
+[26Jun2026 23:42:25.124] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/codespaces-blank/neoforge-server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23140!/data/.mcassetsroot' uses unexpected schema
+[26Jun2026 23:42:25.394] [main/INFO] [com.simibubi.create.Create/]: Created 163 recipes which will be injected into the game
+[26Jun2026 23:42:25.421] [main/INFO] [com.simibubi.create.Create/]: Created 6 tags which will be injected into the game
