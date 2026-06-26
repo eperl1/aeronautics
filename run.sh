@@ -34,7 +34,7 @@ trap backup_server EXIT SIGINT SIGTERM
 echo "🚀 Firing up the NeoForge Server..."
 
 # Run Java in the background (&) so Bash can instantly intercept shutdown signals
-java -Xmx10G -Xms4G @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.230/unix_args.txt "$@" &
+java -Xmx8G -Xms4G @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.230/unix_args.txt "$@" &
 JAVA_PID=$!
 
 # Wait for the Java process. If the Codespace shuts down, this wait is interrupted and the trap runs.
