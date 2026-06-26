@@ -7,8 +7,8 @@ backup_server() {
     
     echo "⚠️ Server stopped or Codespace shutting down! Initiating emergency cloud backup loop..."
     
-    # Restore the default Codespaces authentication in case the previous script broke it
-    git remote set-url origin "https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/eperl1/aeronautics.git"
+    # Reset the origin to a standard HTTPS URL so Git uses your 'gh auth login' credentials
+    git remote set-url origin https://github.com/eperl1/aeronautics.git
     
     # Commit and push all changes
     git add .
