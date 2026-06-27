@@ -1,0 +1,11 @@
+--2026-06-25 16:46:58--  https://cdn.modrinth.com/data/m3fKXkyW/versions/2G04ov0J/immersive_portal_sable_bridge-0.1.jar?mr_download_reason=standalone
+Resolving cdn.modrinth.com (cdn.modrinth.com)... 104.18.23.35, 104.18.22.35, 2606:4700::6812:1723, ...
+Connecting to cdn.modrinth.com (cdn.modrinth.com)|104.18.23.35|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 180797 (177K) [application/java-archive]
+Saving to: ‘immersive_portal_sable_bridge-0.1.jar?mr_download_reason=standalone’
+
+          immersive   0%[                    ]       0  --.-KB/s               immersive_portal_sa 100%[===================>] 176.56K  --.-KB/s    in 0.04s   
+
+2026-06-25 16:46:58 (4.15 MB/s) - ‘immersive_portal_sable_bridge-0.1.jar?mr_download_reason=standalone’ saved [180797/180797]
+
