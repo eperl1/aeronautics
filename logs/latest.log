@@ -1,54 +1,49 @@
-[26Jun2026 23:58:44.980] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.230, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --nogui]
-[26Jun2026 23:58:45.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
-[26Jun2026 23:58:45.016] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
-[26Jun2026 23:58:45.412] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Jun2026 23:58:45.674] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/codespaces-blank/neoforge-server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[26Jun2026 23:58:46.634] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.230:server]
-[26Jun2026 23:58:46.692] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.230-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.230/neoforge-21.1.230-universal.jar]], reader: mod manifest]
-[26Jun2026 23:58:46.730] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aeroworks-1.2.11.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.743] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.763] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisels-and-bits-neoforge-21.1.32.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.777] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.794] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.821] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.829] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.839] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_connected-1.2.2-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.854] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createpropulsion-1.1.4.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.869] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DoctorWhoMod-1.21.1-neoforge-1.0.16.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.894] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.904] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justanotherlibrarymod-1.0.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.910] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "minedmx-1.5.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.3+1.21-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.935] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-neoforge-1.21.1-2.0.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.938] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simpleghostblocks-1.21.1-1.0.5.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.946] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.952] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:46.960] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
-[26Jun2026 23:58:48.181] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 20 dependencies adding them to mods collection
-[26Jun2026 23:58:48.182] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.183] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "scena-core-21.1.20.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.183] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "veil-neoforge-1.21.1-4.1.4.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.185] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "saecularia-caudices-core-21.1.5.jar" [parent: neoforge-21.1.5.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "dev.ryanhcode.sable.sable-sable_rapier-1.21.1-2.0.1.jar" [parent: sable-neoforge-1.21.1-2.0.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "glsl-processor-0.2.3.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
-[26Jun2026 23:58:48.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.20.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.230.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.5.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "molang-compiler-3.1.1.19.jar" [parent: veil-neoforge-1.21.1-4.1.4.jar, locator: jarinjar]
-[26Jun2026 23:58:48.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.195] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.195] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-api-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.195] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-create-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.195] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: create_connected-1.2.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.197] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.201] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.202] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-core-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
-[26Jun2026 23:58:48.218] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[27Jun2026 00:09:30.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.230, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --nogui]
+[27Jun2026 00:09:30.205] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 25.0.2+10-LTS
+[27Jun2026 00:09:30.216] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 25.0.2 by Microsoft; OS Linux arch amd64 version 6.8.0-1052-azure
+[27Jun2026 00:09:30.775] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[27Jun2026 00:09:30.972] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/codespaces-blank/neoforge-server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[27Jun2026 00:09:31.799] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.230:server]
+[27Jun2026 00:09:31.862] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.230-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.230/neoforge-21.1.230-universal.jar]], reader: mod manifest]
+[27Jun2026 00:09:31.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "aeroworks-1.2.11.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.893] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-13.0.8-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.906] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "chisels-and-bits-neoforge-21.1.32.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.915] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cloth-config-15.0.140-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.937] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "connectedglass-1.1.14-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.975] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.10.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:31.995] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-aeronautics-bundled-1.21.1-1.3.0.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.031] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_connected-1.2.2-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.050] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "createpropulsion-1.1.4.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.063] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.083] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DoctorWhoMod-1.21.1-neoforge-1.0.16.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.095] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fusion-1.2.12-neoforge-mc1.21.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.162] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "justanotherlibrarymod-1.0.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.174] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.9_MC_1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.187] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "minedmx-1.5.1.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.198] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pehkui-3.8.3+1.21-neoforge.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.212] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simpleghostblocks-1.21.1-1.0.5.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.224] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.244] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "supermartijn642corelib-1.1.21-neoforge-mc1.21.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:32.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.8.jar" [locator: {mods folder locator at /workspaces/codespaces-blank/neoforge-server/mods}, reader: mod manifest]
+[27Jun2026 00:09:33.144] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[27Jun2026 00:09:33.145] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "scena-core-21.1.20.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.146] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.simulated_team.simulated.simulated-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.147] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "saecularia-caudices-core-21.1.5.jar" [parent: neoforge-21.1.5.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.147] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.20.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.148] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ponder-neoforge-1.0.82+mc1.21.1.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.148] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.230.jar" [parent: neoforge-21.1.230-universal.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.5.jar" [parent: neoforge-21.1.20.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.149] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.eriksonn.aeronautics.aeronautics-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.150] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+67.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.150] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-api-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.151] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-create-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.151] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sable-companion-common-1.21.1-1.6.0.jar" [parent: create_connected-1.2.2-mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.6.jar" [parent: create-1.21.1-6.0.10.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "dev.ryanhcode.offroad.offroad-neoforge-1.21.1-1.3.0.jar" [parent: create-aeronautics-bundled-1.21.1-1.3.0.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.152] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "chisels-and-bits-core-21.1.32.jar" [parent: chisels-and-bits-neoforge-21.1.32.jar, locator: jarinjar, reader: mod manifest]
+[27Jun2026 00:09:33.156] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -76,66 +71,72 @@
 		NeoForge 21.1.230 (neoforge)
 		Pehkui 3.8.3+1.21-neoforge (pehkui)
 		Ponder 1.0.82+mc1.21.1 (ponder)
-		Sable 2.0.1 (sable)
 		Sable Companion 1.6.0 (sablecompanion)
 		Saecularia Caudices 21.1.5 (saeculariacaudices)
 		scena 21.1.20 (scena)
 		SimpleGhostBlocks 1.0.2 (simpleghostblocks)
 		SuperMartijn642's Config Library 1.1.8 (supermartijn642configlib)
 		SuperMartijn642's Core Lib 1.1.21 (supermartijn642corelib)
-		Veil 4.1.4 (veil)
 		WorldEdit 7.3.8+6939-7d32b45 (worldedit)
-[26Jun2026 23:58:50.128] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[26Jun2026 23:58:50.346] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [--nogui]
-[26Jun2026 23:58:50.440] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.442] [main/WARN] [mixin/]: Reference map 'creativecore.mixins.refmap.json' for creativecore.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.443] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for sc.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.464] [main/WARN] [mixin/]: Reference map 'supermartijn642corelib.mixins.refmap.json' for supermartijn642corelib.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.481] [main/WARN] [mixin/]: Reference map 'aeronautics.refmap.json' for aeronautics.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.517] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.573] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[26Jun2026 23:58:50.575] [main/INFO] [dev.ryanhcode.sable.mixin.AbstractSableMixinPlugin/]: Using Vanilla renderer mixins
-[26Jun2026 23:58:50.578] [main/WARN] [mixin/]: Reference map 'scena.refmap.json' for scena.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.624] [main/WARN] [mixin/]: Reference map 'simulated.refmap.json' for simulated.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.626] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.638] [main/WARN] [mixin/]: Reference map 'createpropulsion.refmap.json' for createpropulsion.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.652] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.654] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:50.663] [main/WARN] [mixin/]: Reference map 'offroad.refmap.json' for offroad.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:51.035] [main/WARN] [mixin/]: Reference map 'create_connected.refmap.json' for create_connected.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2026 23:58:52.697] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:52.735] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:52.860] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:52.862] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:52.919] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:52.921] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:53.794] [main/WARN] [mixin/]: Error loading class: mezz/jei/library/plugins/vanilla/ingredients/ItemStackListFactory (java.lang.ClassNotFoundException: mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory)
-[26Jun2026 23:58:53.927] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/portal/Portal (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.portal.Portal)
-[26Jun2026 23:58:53.930] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.portal.Portal was not found dwm-common.mixins.json:MixinPortal from mod dwm
-[26Jun2026 23:58:53.936] [main/WARN] [mixin/]: Error loading class: qouteall/imm_ptl/core/teleportation/ServerTeleportationManager (java.lang.ClassNotFoundException: qouteall.imm_ptl.core.teleportation.ServerTeleportationManager)
-[26Jun2026 23:58:53.939] [main/WARN] [mixin/]: @Mixin target qouteall.imm_ptl.core.teleportation.ServerTeleportationManager was not found dwm-common.mixins.json:MixinServerTeleportationManager from mod dwm
-[26Jun2026 23:58:54.010] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/slab/CopycatSlabBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock)
-[26Jun2026 23:58:54.011] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.slab.CopycatSlabBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[26Jun2026 23:58:54.012] [main/WARN] [mixin/]: Error loading class: com/copycatsplus/copycats/content/copycat/board/CopycatBoardBlock (java.lang.ClassNotFoundException: com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock)
-[26Jun2026 23:58:54.014] [main/WARN] [mixin/]: @Mixin target com.copycatsplus.copycats.content.copycat.board.CopycatBoardBlock was not found create_connected.mixins.json:compat.CopycatBlockMixin from mod create_connected
-[26Jun2026 23:58:54.035] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
-[26Jun2026 23:58:54.288] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$ScheduledForRemoval (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$ScheduledForRemoval)
-[26Jun2026 23:58:54.331] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.332] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:54.335] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.336] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:54.363] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.369] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:54.379] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.385] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:54.478] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.481] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:54.495] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:58:54.497] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:58:55.475] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[26Jun2026 23:59:03.869] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:59:03.874] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:59:03.910] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:59:03.911] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
-[26Jun2026 23:59:03.956] [main/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER
-[26Jun2026 23:59:03.957] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/ClientLevel (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/ClientLevel for invalid dist DEDICATED_SERVER)
+[27Jun2026 00:09:33.357] [main/ERROR] [net.neoforged.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'sable', Requested by: 'offroad', Expected range: '[2.0.0,3.0.0)', Actual version: '[MISSING]'
+	Mod ID: 'sable', Requested by: 'simulated', Expected range: '[2.0.0,3.0.0)', Actual version: '[MISSING]'
+	Mod ID: 'sable', Requested by: 'createpropulsion', Expected range: '*', Actual version: '[MISSING]'
+	Mod ID: 'sable', Requested by: 'aeronautics', Expected range: '[2.0.0,3.0.0)', Actual version: '[MISSING]'
+	Mod ID: 'sable', Requested by: 'aeroworks', Expected range: '[1.1.0,)', Actual version: '[MISSING]'
+[27Jun2026 00:09:34.559] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [--nogui]
+[27Jun2026 00:09:37.257] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[27Jun2026 00:09:52.471] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod offroad requires sable 2.0.0 or above, and below 3.0.0
+Currently, sable is not installed
+
+[27Jun2026 00:09:52.472] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod simulated requires sable 2.0.0 or above, and below 3.0.0
+Currently, sable is not installed
+
+[27Jun2026 00:09:52.475] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod createpropulsion requires sable any
+Currently, sable is not installed
+
+[27Jun2026 00:09:52.477] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod aeronautics requires sable 2.0.0 or above, and below 3.0.0
+Currently, sable is not installed
+
+[27Jun2026 00:09:52.477] [main/FATAL] [net.neoforged.fml.ModLoader/CORE]: Error during pre-loading phase: Mod aeroworks requires sable 1.1.0 or above
+Currently, sable is not installed
+
+[27Jun2026 00:09:52.626] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (0/18)
+[27Jun2026 00:09:52.694] [main/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-06-27_00.09.52-fml.txt
+[27Jun2026 00:09:52.699] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Mod offroad requires sable 2.0.0 or above, and below 3.0.0
+	  Currently, sable is not installed
+	  
+	- Mod simulated requires sable 2.0.0 or above, and below 3.0.0
+	  Currently, sable is not installed
+	  
+	- Mod createpropulsion requires sable any
+	  Currently, sable is not installed
+	  
+	- Mod aeronautics requires sable 2.0.0 or above, and below 3.0.0
+	  Currently, sable is not installed
+	  
+	- Mod aeroworks requires sable 1.1.0 or above
+	  Currently, sable is not installed
+	  
+
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:110) ~[loader-4.0.42.jar%2359!/:4.0]
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.internal.CommonModLoader.begin(CommonModLoader.java:49) ~[neoforge-21.1.230-universal.jar%23139!/:?]
+	at TRANSFORMER/neoforge@21.1.230/net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:34) ~[neoforge-21.1.230-universal.jar%23139!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:124) [server-1.21.1-20240808.144430-srg.jar%23138!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) [loader-4.0.42.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) [loader-4.0.42.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) [loader-4.0.42.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) [loader-4.0.42.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
